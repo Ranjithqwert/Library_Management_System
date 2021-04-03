@@ -1,0 +1,163 @@
+*
+{
+    margin: auto;
+}
+body
+{
+    padding: auto;
+    margin: auto;
+
+}
+
+.nav
+{
+    position: absolute;
+    background-color: aquamarine;
+    text-align: center;
+    width: 220px;
+    height: 100%;
+
+}
+
+.nav h1
+{
+    text-transform: uppercase;
+}
+
+
+.nav a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.nav a:hover
+{
+    text-transform: uppercase;
+}
+
+.table
+{
+	position: absolute;
+	left: 25%;
+	top: 10%;
+	border-color: black;
+	z-index: 50px;
+	width: 390px;
+	border-collapse: collapse;
+	transform: translate(10%,10%);
+	border: 1px solid #bdc3c7;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2),-1px -1px 8px rgba(0,0,0,0.2);
+
+}
+.table tr
+{
+	transition: 0.2s ease-in;
+	cursor: pointer;
+}
+
+.table th,td
+{
+	padding: 12px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+.table h1
+{
+	background-color: #128565;
+	position: relative;
+	top: -21px;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+}
+
+.table tr:hover
+{
+	background-color: #f5f5f5;
+	transform: scale(1.02);
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2),-1px -1px 8px rgba(0,0,0,0.2);
+}
+
+.thead
+{
+	background-color: #128565;
+	position:relative;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	left: 0%;
+	text-align: center;
+	font-size: 25px;
+}
+input[type="submit"]
+{
+	border: 0;
+	border-radius: 50px;
+	background-color: transparent;
+	display: block;
+	margin: 2px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	width: 150px;
+	outline: none;
+	color: rgb(29, 26, 26);
+	transition: 1s;
+	cursor: pointer;
+}
+input[type="submit"]:hover
+{
+	background-color: #2ecc71;
+    color: #f5f5f5;
+}
+
+
+.table2
+{
+	position: absolute;
+	left: 55%;
+	top: 13%;
+	border-color: black;
+	z-index: 50px;
+	width: 550px;
+	border-collapse: collapse;
+	transform: translate(10%,10%);
+	border: 1px solid #bdc3c7;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2),-1px -1px 8px rgba(0,0,0,0.2);
+
+}
+.table2 tr
+{
+	transition: 0.2s ease-in;
+	cursor: pointer;
+}
+
+.table2 th,td
+{
+	padding: 12px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+
+
+.table2 tr:hover
+{
+	background-color: #f5f5f5;
+	transform: scale(1.02);
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2),-1px -1px 8px rgba(0,0,0,0.2);
+}
+
+.thead2
+{
+	background-color: #128565;
+	position:relative;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	left: 0%;
+	text-align: center;
+	font-size: 25px;
+}
